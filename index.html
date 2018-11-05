@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width">
+        <meta name="author" content="Ramkrishna Patil">
+        <title>Sankalp Ek Nishchay</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+
+    <body>
+	<header>
+			<div class="list">
+				<nav>
+					<ul>
+	<!--                        <li><img src="img/logo1.jpg" width="150px" height="120px"></li> -->
+						<li><a href="https://google.com.au">Home</a></li>
+						<li><a href="https://google.com.au">About Us</a></li>
+						<li><a href="https://google.co.in">Events</a></li>
+						<li><a href="https://google.com">Home</a></li>                        
+						<li><a href="https://facebook.com">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="branding">
+				<img src="img/logo1.jpg" width="150px" height="120px">
+			</div>
+	</header>
+			<!-- Slide the images -->
+		<div class="images-content" style="max-width:1000px">
+			<img class="mySlides" src="img/2015.jpg" />
+			<img class="mySlides" src="img/2017.jpg" />
+			<img class="mySlides" src="img/host.jpg" />
+			<script>
+				var slideIndex = 0;
+				slideImages();
+
+				function slideImages() {
+					var i;
+					var x = document.getElementsByClassName("mySlides");
+					for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none"; 
+					}
+					slideIndex++;
+					if (slideIndex > x.length) {slideIndex = 1} 
+					x[slideIndex-1].style.display = "block"; 
+					setTimeout(slideImages, 2000); // Change image every 2 seconds
+				}
+			</script>
+		</div>
+<!--
+        <section class="showcase1">
+        </section>
+        <section class="showcase">
+            <div class="container">
+                <h1>Upcoming Events</h1>
+                <p>We are a group of Indian friends & families living in Dandenong & nearby suburbs from last 5 to 7 years. Group members are from the state Maharashtra, India. It has been always a great experience coming together to celebrate our festivals & cultural activities - please get in contact if you would like to be part of our community.
+                </p>
+            </div>
+        </section>
+        
+        <section class="newsletter">
+            <div class="container">
+                <h1>Subscribe to Our Newsletter</h1>
+                <input type="email" placeholder="Enter Email...">
+                <Button type="submit" class="button_1">Subscribe</Button>
+            </div>
+        </section>
+-->
+        
+        <section class="boxes">
+<!--		
+            <div class="container">
+                <div class="box">
+                    <img src="img/logo.jpg">
+                    <h3>HTML5 Markup</h3>
+                    <p>We are a group of Indian friends & families living in Dandenong & nearby suburbs from last 5 to 7 years. Group members are from the state Maharashtra, India. It has been always a great experience coming together to celebrate our festivals & cultural activities - please get in contact if you would like to be part of our community.
+                    </p>
+                </div>
+                <div class="box">
+                    <img src="img/2015.jpg">
+                    <h3>CSS Styling</h3>
+                    <p>We are a group of Indian friends & families living in Dandenong & nearby suburbs from last 5 to 7 years. Group members are from the state Maharashtra, India. It has been always a great experience coming together to celebrate our festivals & cultural activities - please get in contact if you would like to be part of our community.
+                    </p>
+                </div>
+                <div class="box">
+                    <img src="img/2017.jpg">
+                    <h3>Graphic Design</h3>
+                    <p>We are a group of Indian friends & families living in Dandenong & nearby suburbs from last 5 to 7 years. Group members are from the state Maharashtra, India. It has been always a great experience coming together to celebrate our festivals & cultural activities - please get in contact if you would like to be part of our community.
+                    </p>
+                </div>
+-->
+				<div class="box">
+					<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/place/Cranbourne+VIC+3977" aria-label="Cranbourne">
+					</iframe>
+				</div>
+            </div>
+        </section>
+        <section class="testFooter">
+		<div class="footer">
+			<p>Sankalp Ek Nishchay, Copyright &copy; 2017</p>
+        </div>
+		</section>
+		</body>
+
+    
+
+</html>
